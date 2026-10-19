@@ -2,7 +2,13 @@
 
 Agenda personal basada en 10 fotos, con 66 registros numerados (57 pendientes y 9 marcados como realizados en las fotos).
 
-## Usar ahora
+## Abrir la agenda
+
+**https://72008081-pixel.github.io/uli-organiza/**
+
+Publicación configurada en GitHub Pages desde main/docs. Los cambios se guardan localmente en cada navegador; usa respaldo JSON para trasladarlos a otro dispositivo.
+
+## Usar el archivo sin conexión
 
 Descarga **[ULI-ORGANIZA.html](ULI-ORGANIZA.html)** y ábrelo en tu navegador. No requiere instalación ni dependencias.
 
@@ -19,7 +25,7 @@ Descarga **[ULI-ORGANIZA.html](ULI-ORGANIZA.html)** y ábrelo en tu navegador. N
 
 El código en app/ y db/ prepara acceso privado con ChatGPT, almacenamiento D1 y detección de conflictos. No está publicado ni verificado en navegador: el entorno bloqueó la conexión al servidor de fuentes, la descarga de dependencias y el acceso al servidor local. Falta generar y verificar las migraciones, compilar y desplegar. No presentar el enlace reservado como aplicación activa.
 
-El repositorio se mantiene privado para conservar tus notas. GitHub Pages no se activó ni se hicieron compras, envíos o suscripciones.
+El repositorio se hizo público con autorización explícita del propietario para habilitar GitHub Pages. Las notas iniciales incluidas en el código son públicas. No se hicieron compras, envíos ni suscripciones.
 
 ## Uso sin doble escritura
 
