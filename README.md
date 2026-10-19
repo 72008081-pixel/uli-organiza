@@ -6,7 +6,7 @@ Agenda personal basada en 10 fotos, con 66 registros numerados (57 pendientes y 
 
 **https://72008081-pixel.github.io/uli-organiza/**
 
-Publicación configurada en GitHub Pages desde main/docs. Los cambios se guardan localmente en cada navegador; usa respaldo JSON para trasladarlos a otro dispositivo.
+Publicación configurada en GitHub Pages desde main/docs. La sincronización entre laptop y celular está implementada. Pulsa «Conectar laptop y celular» en ambos equipos y usa una clave fine-grained limitada a uli-organiza-datos con Contents: Read and write. Sin vincular, el guardado sigue siendo local. Nunca pongas la clave en este repositorio.
 
 ## Usar el archivo sin conexión
 
@@ -19,7 +19,7 @@ Descarga **[ULI-ORGANIZA.html](ULI-ORGANIZA.html)** y ábrelo en tu navegador. N
 - Impresión de la vista y exportación de calendario ICS.
 - La lista y el plan completos están en **[ORGANIZACION-ULI.md](ORGANIZACION-ULI.md)**.
 
-**Límite actual:** el HTML guarda en cada navegador; no sincroniza automáticamente entre dispositivos. Puedes exportar un respaldo JSON e importarlo en otro. No borres datos del navegador sin respaldo.
+**Sincronización:** la página publicada combina cambios por campo, conserva cambios offline y detecta conflictos de escritura. Actualiza al volver a la ventana, al reconectar y cada 30 segundos mientras está abierta. Requiere vincular cada dispositivo. Datos nuevos en el repositorio privado uli-organiza-datos. La clave se conserva en sesión salvo que el usuario active recordarla en su navegador personal. El HTML descargado individualmente conserva su modo local. No borres datos del navegador sin respaldo.
 
 ## Versión con servidor (pendiente de publicación)
 
